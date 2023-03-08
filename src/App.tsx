@@ -1,5 +1,11 @@
+import { Layout } from "./components/layouts";
+
 function App() {
-  return <p>this is meccha</p>;
+  return (
+    <Layout>
+      <p>this is app</p>
+    </Layout>
+  );
 }
 
 export default App;
